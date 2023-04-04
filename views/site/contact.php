@@ -39,8 +39,7 @@ $this->title = 'Contact';
             <?php else : ?>
 
                 <p class="text-custom">
-                    If you have business inquiries or other questions, please fill out the following form to contact us.
-                    Thank you.
+                    Survey kepuasan pelanggan terhadap produk kami bisa dikirim lewat form berikut:
                 </p>
         </div>
         <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
