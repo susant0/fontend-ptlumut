@@ -10,7 +10,7 @@ use yii\bootstrap5\Html;
 $this->title = 'Login';
 ?>
 <div class="row justify-content-center text-custom">
-    <div class="col-6 shadow-sm px-5 py-5 rounded bg-body-custom">
+    <div class="col-10 col-md-6 shadow-sm px-5 py-5 rounded bg-body-custom">
         <div class="site-login">
             <div class="label text-center">
                 <h1><?= Html::encode($this->title) ?></h1>
