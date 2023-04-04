@@ -37,7 +37,7 @@ $this->title = 'My Yii Application';
             <div class="row text-center text-custom py-3">
                 <h1 class="">Menu spesial dari kami</h1>
                 <p class="lead">
-                    This is a lead paragraph. It stands out from regular paragraphs.
+                    Pilih sesuai dengan selera makanmu.
                 </p>
             </div>
             <div class="row row-cols-1 row-cols-lg-3 text-custom">
