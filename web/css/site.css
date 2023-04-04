@@ -125,3 +125,19 @@ main>.container {
 .text-custom2 {
     color: #a94442;
 }
+
+.btn-custom {
+    background-color: #c55;
+    color: white;
+    font-weight: 600;
+}
+
+.btn-custom:hover {
+    border: solid #c58483;
+    color: #a94442;
+    font-weight: 600;
+}
+
+.bg-body-custom {
+    background-color: rgb(230, 214, 204);
+}

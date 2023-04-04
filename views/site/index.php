@@ -19,11 +19,10 @@ $this->title = 'My Yii Application';
 
     <div class="body-content">
         <header class="">
-            <!-- <img src="https://source.unsplash.com/1920x720/?indoesian+street+food" class="img-fluid" alt=""> -->
-            <img src="image.jpg" class="img-fluid">
+
         </header>
         <main>
-            <div class="row py-4 text-custom">
+            <div class="row py-4 text-custom pb-5">
                 <h2 class="display-3 fw-semibold">Bumbu Pawon</h2>
                 <figure class="">
                     <blockquote class="blockquote">
@@ -35,42 +34,49 @@ $this->title = 'My Yii Application';
                 </figure>
             </div>
             <!-- card -->
-            <div class="row row-cols-lg-3 text-custom">
+            <div class="row text-center text-custom py-3">
+                <h1 class="">Menu spesial dari kami</h1>
+                <p class="lead">
+                    This is a lead paragraph. It stands out from regular paragraphs.
+                </p>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-3 text-custom">
                 <div class="col py-4">
                     <div class="card h-100">
                         <div class="content-justify-center text-primary">
-                            <img class="img-fluid" src="https://source.unsplash.com/450x250/?indoesian+street+food+1" alt="">
+                            <img class="img-fluid" src="https://source.unsplash.com/600x350/?indoesian+street+food+1" alt="">
                         </div>
 
                         <div class="card-body">
                             <h5 class="card-title fs-4 fw-bolder">Menu Paket 1</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis porro nihil libero ullam laboriosam ratione tenetur, ducimus fugiat, placeat sit, perspiciatis et reprehenderit dolorem provident itaque dolor suscipit! Molestias, dolorum.</p>
-
+                            <a href="#" class="btn btn-custom">Pesan</a>
                         </div>
                     </div>
                 </div>
                 <div class="col py-4">
                     <div class="card h-100">
                         <div class="content-justify-center text-warning">
-                            <img class="img-fluid" src="https://source.unsplash.com/450x250/?indoesian+street+food+2" alt="">
+                            <img class="img-fluid" src="https://source.unsplash.com/600x350/?indoesian+street+food+2" alt="">
                         </div>
 
                         <div class="card-body">
                             <h5 class="card-title fs-4 fw-bolder">Menu Paket 2</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, molestiae quam ipsa doloremque atque odio. Ullam optio tempore dolore, maxime perferendis impedit maiores cupiditate, quam assumenda nulla, similique sit amet harum accusantium!</p>
-
+                            <a href="#" class="btn btn-custom">Pesan</a>
                         </div>
                     </div>
                 </div>
                 <div class="col py-4">
                     <div class="card h-100">
                         <div class="content-justify-center text-danger">
-                            <img class="img-fluid" src="https://source.unsplash.com/450x250/?indoesian+street+food+3" alt="">
+                            <img class="img-fluid" src="https://source.unsplash.com/600x350/?indoesian+street+food+3" alt="">
                         </div>
 
                         <div class="card-body">
                             <h5 class="card-title fs-4 fw-bolder">Menu Paket 3</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, hic consequatur expedita in impedit voluptas ipsam inventore nulla incidunt adipisci cum provident, esse aspernatur nobis commodi ea odit consequuntur. Eligendi, labore. Maxime, tempora provident?</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, hic consequatur expedita in impedit voluptas ipsam inventore nulla incidunt adipisci cum provident, esse aspernatur nobis commodi ea odit consequuntur. Eligendi, labore.</p>
+                            <a href="#" class="btn btn-custom">Pesan</a>
                         </div>
                     </div>
                 </div>
