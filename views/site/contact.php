@@ -44,13 +44,13 @@ $this->title = 'Contact';
         </div>
         <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
 
-        <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
+        <?= $form->field($model, 'name')->textInput(['autofocus' => true])->label('Nama') ?>
 
-        <?= $form->field($model, 'email') ?>
+        <?= $form->field($model, 'email')->label('Email') ?>
 
-        <?= $form->field($model, 'subject') ?>
+        <?= $form->field($model, 'subject')->label('Subjek') ?>
 
-        <?= $form->field($model, 'body')->textarea(['rows' => 6]) ?>
+        <?= $form->field($model, 'body')->textarea(['rows' => 6])->label('Pesan') ?>
 
         <?= $form->field($model, 'verifyCode')->widget(Captcha::class, [
                     'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
